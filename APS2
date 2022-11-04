@@ -1,3 +1,7 @@
+# MÉTODOS NUMÉRICOS COMPUTACIONAIS
+# 133R 
+# Victor Hugo da Silva Vieira
+
 import os
 from PIL import Image 
 import numpy as n
