@@ -25,13 +25,14 @@ from numpy.linalg import svd
 arr = n.array([[500, 500, 3], 
                [720, 586, 3]], 
               dtype = n.float32)
+              
 print("Array original:")
 print(arr)
 
 U, Singular, V = svd(arr)
-print("-------------------------------")
+
 print("Array: ",arr)
-print("-------------------------------")
-print("Valores Singulares:", Singular)
-print("-------------------------------")
+
+print("Valor Singular:", Singular)
+
 print("V^{T}",V.T)
